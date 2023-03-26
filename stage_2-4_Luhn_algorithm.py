@@ -27,7 +27,7 @@ def check_sum(a):
         
 
     
-def acсount():
+def account():
     while True:
         print("""1. Balance
 2. Log out
@@ -66,7 +66,7 @@ def login_account():
     pin = input("Enter your PIN:")
     if (card, pin) in accounts.items():
         print("You have successfully logged in!")
-        acсount()
+        account()
     else:
         print("Wrong card number or PIN!")
 
